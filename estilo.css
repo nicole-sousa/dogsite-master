@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+#aba{
+    height: 24.3vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(250, 243, 155);
+}
+
+#logo{
+    align-self: flex-start;
+}
+
+#navegador{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 8vh; 
+    margin-left: 2vh;
+    width: 160vh;
+}
+
+header div nav a{
+    font-size: 14pt;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(239, 111, 43);
+}
+
+#capa{
+    height: 90vh;
+    background-image: url(Images/dog4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+@media(min-width: 400px){
+    #capa{
+        height: 132vh;
+    }
+}
